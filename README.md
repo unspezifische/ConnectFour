@@ -6,5 +6,8 @@ The game of Connect Four is played between two players (Red and Yellow) using a 
 ## Goal:
 Write a program that plays Connect Four using a Monte Carlo tree search. For each turn, print the move selected, estimated wins, estimated probability this is the best move, and print the board position. Use a lightweight playout.
 
+## Implementation:
+For a breakdown of the code, either browse through the code and read the comments or take a peek at the PDF writeup. The PDF breaks down the algorithm and explains some of the choices made during development in greater detail than the comments in the code...
+
 ## TODO:
 Give the program the ability to learn from its play by storing some or all of the positions that come up during search and their win/loss information. In future games, if the position arises during a search, its information can be put to use so the results of previous searches need not be lost. This allows the program to search deeper, and more effectively.
